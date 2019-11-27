@@ -1,7 +1,7 @@
 name: sticky_header_footer
 description: 一个在ListView中可以固定头部和尾部的控件
 
-version: 0.1.1
+version: 0.1.2
 
 author: XIAOHENG LIU <xiaoheng.liu@gmail.com>
 homepage: https://github.com/xhengx/sticky_header_footer
