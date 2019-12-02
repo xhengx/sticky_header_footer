@@ -103,7 +103,7 @@ class XStickyRender extends RenderBox
     final double footerMinOffset = height - footerHeight;
     // 获取footer控件的位置，保证能贴在底部
     final footerOffset =
-        _scrollPosition.viewportDimension ?? 0.0 - footerHeight - scrollOffset;
+        _scrollPosition.viewportDimension - footerHeight - scrollOffset;
 
     footerParentData.offset =
         Offset(0.0, max(min(footerOffset, footerMinOffset), footerMaxOffset));
